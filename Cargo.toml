@@ -1,0 +1,12 @@
+[package]
+name = "app"
+version = "0.1.0"
+authors = ["Keisuke Kan <9renpoto+g59@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies.cargo-husky]
+version = "1"
+default-features = false
+features = ["run-cargo-fmt"]
