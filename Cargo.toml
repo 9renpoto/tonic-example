@@ -13,7 +13,7 @@ name = "helloworld-client"
 path = "src/client.rs"
 
 [dependencies]
-tonic = "0.6"
+tonic = "0.8"
 prost = "0.9"
 tokio = { version = "1.17", features = ["macros", "rt-multi-thread"] }
 tracing = "0.1.32"
