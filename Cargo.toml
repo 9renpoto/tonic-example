@@ -27,4 +27,4 @@ default-features = false
 features = ["run-cargo-fmt"]
 
 [build-dependencies]
-tonic-build = "0.6"
+tonic-build = "0.10"
